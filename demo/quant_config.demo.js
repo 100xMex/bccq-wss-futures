@@ -2,7 +2,7 @@
 const COIN_NAME = 'ETH';
 const DATE = {
   OKEx: '190628',
-  HuoBi: 'CQ', // CW current week, NW next week, CQ current quarter
+  HuoBi: 'CW', // CW current week, NW next week, CQ current quarter
 };
 const LEVEL = 2; // 取 Level 几进行判断
 const FEE = '0.0003'; // 手续费率

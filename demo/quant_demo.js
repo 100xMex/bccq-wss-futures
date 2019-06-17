@@ -1,6 +1,6 @@
 const BN = require('bignumber.js');
 
-const { COIN_NAME, DATE, LEVEL, FEE, configHuobi, configOkex, } = require('./quant_config.demo');
+const { COIN_NAME, DATE, LEVEL, FEE, configHuobi, configOkex, } = require('./quant_config');
 
 const FuturesHuobi = require('../lib/futures_huobi');
 const FuturesOkex = require('../lib/futures_okex');
@@ -92,6 +92,8 @@ setInterval(() => {
     if (arbitrateEnable) {
       console.log('火币 %s 卖, OK %s 买, %s 张', huobiPrice[1], okPrice[0], cont);
     }
+  } else {
+    console.log('无套利机会');
   }
 
   // TODO 下单, 仓位获取, 控制不爆仓
