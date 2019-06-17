@@ -31,5 +31,13 @@
     "quant",
     "exchange",
     "websocket"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinchou/bccq-wss-futures.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinchou/bccq-wss-futures/issues"
+  },
+  "homepage": "https://github.com/justinchou/bccq-wss-futures#readme"
 }
