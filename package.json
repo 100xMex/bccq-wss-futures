@@ -1,6 +1,6 @@
 {
   "name": "@bccq/wss-futures",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "websocket for different exchange, like okex, huobi...",
   "main": "index.js",
   "directories": {
